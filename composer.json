@@ -1,0 +1,30 @@
+{
+    "name": "bernardwiesner/parallel-tasks",
+    "description": "Exexute laravel tasks in parallel",
+    "require" : {
+        "php": "^7.3|^8.0",
+        "illuminate/console": "8.x-dev",
+        "symfony/process": "^5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5.19|^9.5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "ParallelTasks\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ParallelTasks\\Tests\\": "tests/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bernard Wiesner",
+            "email": "linkbeni@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
